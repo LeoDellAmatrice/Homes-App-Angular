@@ -1,6 +1,6 @@
 <section>
     <form>
-        <input type="text" #texto placeholder="filtrar por cidade e/ou estado">
+        <input class="barra" type="text" #texto placeholder="filtrar por cidade e/ou estado">
         <button class="primary" type="button" (click)="listarImoveisComFiltro(texto.value)"
             (Keyup.enter)="listarImoveisComFiltro(texto.value)">Filtrar</button>
             <button class="primary alinha" (click)="MostrarFavoritos()" type="button">Meus Favoritos</button>
