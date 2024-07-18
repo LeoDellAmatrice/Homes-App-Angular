@@ -6,9 +6,18 @@ h2 {
   font-size: 35px !important;
 }
 
+img.voltar {
+  width: 5%;
+  position: absolute;
+  top: 4vh;
+  left: 17vw;
+  max-width: 30px;
+  height: auto;
+}
+
 .compra {
   position: fixed;
-  bottom: 2%;
+  bottom: 6%;
   left: 10px;
   width: 30%;
 }
@@ -34,12 +43,14 @@ h2 {
   float: right;
   margin-right: 100px;
 }
+
 .list {
   margin-top: 8px;
   margin-right: 40px;
   display: list-item;
   justify-content: center;
 }
+
 .listing-heading {
   font-size: 48pt;
   font-weight: bold;
@@ -103,8 +114,144 @@ input {
 }
 
 @media (max-width: 1024px) {
+  img.voltar {
+    width: 6%;
+    top: 3vh;
+    left: 15vw;
+  }
+
+  .compra {
+    width: 50%;
+    bottom: 5%;
+  }
+
+  .button {
+    font-size: 18px;
+    width: 80%;
+    margin-left: 10%;
+  }
+
   .listing-photo {
     width: 100%;
     height: 400px;
+    margin-right: 0;
+  }
+
+  .listing-heading,
+  .listing-location,
+  input {
+    width: 90%;
+    font-size: 36pt;
+  }
+
+  .listing-features>.section-heading {
+    font-size: 20pt;
+  }
+
+  .listing-features li {
+    font-size: 12pt;
+  }
+
+  label {
+    font-size: 10pt;
+  }
+
+  input {
+    font-size: 14pt;
+  }
+}
+
+@media (max-width: 768px) {
+  img.voltar {
+    width: 7%;
+    top: 2vh;
+    left: 10vw;
+  }
+
+  .compra {
+    width: 70%;
+  }
+
+  .button {
+    font-size: 16px;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .listing-photo {
+    width: 100%;
+    height: 300px;
+  }
+
+  .listing-heading {
+    font-size: 28pt;
+  }
+
+  .listing-location {
+    font-size: 18pt;
+  }
+
+  .listing-features>.section-heading {
+    font-size: 16pt;
+  }
+
+  .listing-features li {
+    font-size: 10pt;
+  }
+
+  label {
+    font-size: 9pt;
+  }
+
+  input {
+    font-size: 12pt;
+  }
+}
+
+@media (max-width: 480px) {
+  img.voltar {
+    width: 8%;
+    top: 1vh;
+    left: 5vw;
+  }
+
+  .compra {
+    width: 90%;
+  }
+
+  .button {
+    font-size: 14px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .listing-photo {
+    width: 100%;
+    height: 200px;
+  }
+
+  .listing-heading {
+    font-size: 24pt;
+  }
+
+  .listing-location {
+    font-size: 16pt;
+  }
+
+  .listing-features>.section-heading {
+    font-size: 14pt;
+  }
+
+  .listing-features li {
+    font-size: 9pt;
+  }
+
+  label {
+    font-size: 8pt;
+  }
+
+  input {
+    font-size: 10pt;
+    width: 100%;
   }
 }

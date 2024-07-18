@@ -1,0 +1,42 @@
+<section class="content">
+    <article>
+        <img (click)="voltardetalhes()" src="iconsetavoltar.png" alt="Voltar" class="voltar">
+        <img class="listing-photo" alt="Foto" src="{{imovel?.url_foto}}">
+        <section style="padding-left: 5%;" class="listing-description">
+            <h2 class="listing_heading">{{imovel?.nome}}</h2>
+            <p class="listing-location">{{imovel?.cidade + ", " + imovel?.estado}}</p>
+            <p class="valor" for="valorImovel">Valor do Imóvel: R$ {{ imovel?.valor | number:'1.2-2'}}</p>
+        </section>
+        <div style="padding-left: 5%;"class="container">
+            <h2 style="margin-top: 10px; margin-bottom: 10px;" class="section-heading">Financiamento:</h2>
+            <section>
+                <label for="" >Valor entrada</label>
+                <input type="number" [(ngModel)]="valorEntrada">
+
+                <label style="margin-top: 10px; margin-bottom: 10px;" for="">Prazo do financiamento</label>
+                <select [(ngModel)]="anos" class="custom-select">
+                    <option value="0">Selecione um prazo</option>
+                    <option value="1">1 anos</option>
+                    <option value="2">2 anos</option>
+                    <option value="3">3 anos</option>
+                    <option value="4">4 anos</option>
+                    <option value="5">5 anos</option>
+                    <option value="6">6 anos</option>
+                    <option value="7">7 anos</option>
+                    <option value="8">8 anos</option>
+                    <option value="9">9 anos</option>
+                    <option value="10">10 anos</option>
+                </select>
+            </section>
+    
+            <section class="compra">
+                <button (click)="calcularFinanciamento()" class="button" type="button">Cacular</button>
+                @if (valorparcela > 0){
+                    <h3 class="">Valor Parcela:{{valorparcela | number:'1.2-2'}}</h3>
+                }
+
+                <button (click)="voltardetalhes()" class="button cursor">Voltar</button>
+            </section>
+        </div>
+    </article>
+</section>

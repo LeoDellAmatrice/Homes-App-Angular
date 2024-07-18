@@ -22,16 +22,18 @@ export class ImovelDComponent {
     this.imovel = this.imvService.buscarImovelPeloId(id);
   }
 
+  voltar(){
+    const url = ""
+    this.rt.navigate([url]);
+  }
+
   paginaAlugar(){  
     const url = `/detalhes/${this.imovel?.id}/alugar`
     this.rt.navigate([url]);
   }
 
-  paginaComprar(){
-    alert('Pagina');
-  }
-
   paginaFinanciamento(){
-    alert('Pagina');
+    const url = `/detalhes/${this.imovel?.id}/financiamento`
+    this.rt.navigate([url]);
   }
 }

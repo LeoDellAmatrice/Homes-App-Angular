@@ -1,5 +1,6 @@
 <section class="content">
     <article>
+        <img (click)="voltardetalhes()" src="iconsetavoltar.png" alt="Voltar" class="voltar">
         <img class="listing-photo" alt="Foto" src="{{imovel?.url_foto}}">
         <section style="padding-left: 5%;" class="listing-description">
             <h2 class="listing_heading">{{imovel?.nome}}</h2>
@@ -7,12 +8,15 @@
         </section>
         <div style="padding-left: 5%;"class="container">
             <section class="listing-figures">
-                <h2 class="section-heading">Informações adicionais</h2>
+                <h2 class="section-heading">Informações de aluguel</h2>
                 <ul>
                     @for(info of imovel?.aluguel; track $index){
-                        <li class="list">{{info.chave}}: R${{info.valor}},00</li>
+                        <li class="list">{{info.chave}}: R${{info.valor | number:'1.2-2'}},00</li>
                     }
                 </ul>
+            </section>
+            <section class="compra">
+                <button (click)="voltardetalhes()" class="button cursor">Voltar</button>
             </section>
         </div>
     </article>

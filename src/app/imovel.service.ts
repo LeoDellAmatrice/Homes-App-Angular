@@ -19,6 +19,7 @@ export class ImovelService {
       "tipoImovel": "casa",
       "latitude": "-19.9386",
       "longitude": "-44.0554",
+      "valor": 1200000,
       "adicionais": [
         {
           "chave": "Quartos disponíveis",
@@ -59,488 +60,341 @@ export class ImovelService {
           "valor": 4500.00
         },
         {
-          "chave": "aluguel anual",
-          "valor": 54000.00
+          "chave": "aluguel semanal",
+          "valor": 1200.00
         },
         {
-          "chave": "aluguel diário",
-          "valor": 300.00
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "url_foto": "2.jpg",
-      "nome": "Kitnet Econômica",
-      "cidade": "Piracicaba",
-      "estado": "São Paulo",
-      "favorito": false,
-      "tipoImovel": "apartamento",
-      "latitude": "-22.7288",
-      "longitude": "-47.6494",
-      "adicionais": [
-        {
-          "chave": "Banheiro",
-          "valor": "1"
-        },
-        {
-          "chave": "Área Construída",
-          "valor": "30m²"
-        },
-        {
-          "chave": "Andar",
-          "valor": "2º"
-        },
-        {
-          "chave": "Mobília",
-          "valor": "Parcialmente Mobiliado"
-        },
-        {
-          "chave": "Vagas de Garagem",
-          "valor": "1"
-        },
-        {
-          "chave": "Condomínio",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Academia",
-          "valor": "Não"
-        },
-        {
-          "chave": "Ano de Construção",
-          "valor": "2010"
-        }
-      ],
-      "aluguel": [
-        {
-          "chave": "aluguel mensal",
-          "valor": 900.00
-        },
-        {
-          "chave": "aluguel anual",
-          "valor": 10800.00
-        },
-        {
-          "chave": "aluguel diário",
-          "valor": 60.00
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "url_foto": "3.jpg",
-      "nome": "Casarão na Floresta",
-      "cidade": "Americana",
-      "estado": "São Paulo",
-      "favorito": false,
-      "tipoImovel": "casa",
-      "latitude": "-22.7377",
-      "longitude": "-47.3331",
-      "adicionais": [
-        {
-          "chave": "Quartos disponíveis",
-          "valor": "10"
-        },
-        {
-          "chave": "Quintal",
-          "valor": "Muito Grande"
-        },
-        {
-          "chave": "Banheiros",
-          "valor": "5"
-        },
-        {
-          "chave": "Garagem",
-          "valor": "5 carros"
-        },
-        {
-          "chave": "Área Construída",
-          "valor": "500m²"
-        },
-        {
-          "chave": "Piscina",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Churrasqueira",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Ano de Construção",
-          "valor": "2005"
-        }
-      ],
-      "aluguel": [
-        {
-          "chave": "aluguel mensal",
+          "chave": "aluguel trimestral",
           "valor": 12000.00
         },
         {
-          "chave": "aluguel anual",
-          "valor": 144000.00
-        },
-        {
-          "chave": "aluguel diário",
-          "valor": 800.00
+          "chave": "aluguel semestral",
+          "valor": 24000.00
         }
       ]
     },
-    {
-      "id": 4,
-      "url_foto": "4.jpg",
-      "nome": "Casa 04",
-      "cidade": "Nova Odessa",
-      "estado": "São Paulo",
-      "favorito": false,
-      "tipoImovel": "casa",
-      "latitude": "-22.7775",
-      "longitude": "-47.2948",
-      "adicionais": [
-        {
-          "chave": "Quartos disponíveis",
-          "valor": "4"
-        },
-        {
-          "chave": "Piscina",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Banheiros",
-          "valor": "3"
-        },
-        {
-          "chave": "Garagem",
-          "valor": "3 carros"
-        },
-        {
-          "chave": "Área Construída",
-          "valor": "300m²"
-        },
-        {
-          "chave": "Jardim",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Churrasqueira",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Ano de Construção",
-          "valor": "2012"
-        }
-      ],
-      "aluguel": [
-        {
-          "chave": "aluguel mensal",
-          "valor": 7000.00
-        },
-        {
-          "chave": "aluguel anual",
-          "valor": 84000.00
-        },
-        {
-          "chave": "aluguel diário",
-          "valor": 500.00
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "url_foto": "5.jpg",
-      "nome": "Casa 05",
-      "cidade": "Piracicaba",
-      "estado": "São Paulo",
-      "favorito": false,
-      "tipoImovel": "casa",
-      "latitude": "-22.7289",
-      "longitude": "-47.6492",
-      "adicionais": [
-        {
-          "chave": "Quartos disponíveis",
-          "valor": "4"
-        },
-        {
-          "chave": "Piscina",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Banheiros",
-          "valor": "2"
-        },
-        {
-          "chave": "Garagem",
-          "valor": "2 carros"
-        },
-        {
-          "chave": "Área Construída",
-          "valor": "280m²"
-        },
-        {
-          "chave": "Jardim",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Churrasqueira",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Ano de Construção",
-          "valor": "2013"
-        }
-      ],
-      "aluguel": [
-        {
-          "chave": "aluguel mensal",
-          "valor": 5000.00
-        },
-        {
-          "chave": "aluguel anual",
-          "valor": 60000.00
-        },
-        {
-          "chave": "aluguel diário",
-          "valor": 350.00
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "url_foto": "6.jpg",
-      "nome": "Casa 06",
-      "cidade": "Cabreúva",
-      "estado": "São Paulo",
-      "favorito": false,
-      "tipoImovel": "casa",
-      "latitude": "-23.3054",
-      "longitude": "-47.1327",
-      "adicionais": [
-        {
-          "chave": "Quartos disponíveis",
-          "valor": "4"
-        },
-        {
-          "chave": "Piscina",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Banheiros",
-          "valor": "2"
-        },
-        {
-          "chave": "Garagem",
-          "valor": "2 carros"
-        },
-        {
-          "chave": "Área Construída",
-          "valor": "250m²"
-        },
-        {
-          "chave": "Jardim",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Churrasqueira",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Ano de Construção",
-          "valor": "2014"
-        }
-      ],
-      "aluguel": [
-        {
-          "chave": "aluguel mensal",
-          "valor": 6000.00
-        },
-        {
-          "chave": "aluguel anual",
-          "valor": 72000.00
-        },
-        {
-          "chave": "aluguel diário",
-          "valor": 400.00
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "url_foto": "7.jpg",
-      "nome": "Casa 07",
-      "cidade": "Sumaré",
-      "estado": "São Paulo",
-      "favorito": false,
-      "tipoImovel": "casa",
-      "latitude": "-22.8212",
-      "longitude": "-47.2664",
-      "adicionais": [
-        {
-          "chave": "Quartos disponíveis",
-          "valor": "3"
-        },
-        {
-          "chave": "Piscina",
-          "valor": "Não"
-        },
-        {
-          "chave": "Banheiros",
-          "valor": "2"
-        },
-        {
-          "chave": "Garagem",
-          "valor": "1 carro"
-        },
-        {
-          "chave": "Área Construída",
-          "valor": "180m²"
-        },
-        {
-          "chave": "Jardim",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Churrasqueira",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Ano de Construção",
-          "valor": "2011"
-        }
-      ],
-      "aluguel": [
-        {
-          "chave": "aluguel mensal",
-          "valor": 4000.00
-        },
-        {
-          "chave": "aluguel anual",
-          "valor": 48000.00
-        },
-        {
-          "chave": "aluguel diário",
-          "valor": 250.00
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "url_foto": "8.jpg",
-      "nome": "Casa 08",
-      "cidade": "Piracicaba",
-      "estado": "São Paulo",
-      "favorito": false,
-      "tipoImovel": "casa",
-      "latitude": "-22.7235",
-      "longitude": "-47.6490",
-      "adicionais": [
-        {
-          "chave": "Quartos disponíveis",
-          "valor": "4"
-        },
-        {
-          "chave": "Piscina",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Banheiros",
-          "valor": "2"
-        },
-        {
-          "chave": "Garagem",
-          "valor": "2 carros"
-        },
-        {
-          "chave": "Área Construída",
-          "valor": "300m²"
-        },
-        {
-          "chave": "Jardim",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Churrasqueira",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Ano de Construção",
-          "valor": "2014"
-        }
-      ],
-      "aluguel": [
-        {
-          "chave": "aluguel mensal",
-          "valor": 6500.00
-        },
-        {
-          "chave": "aluguel anual",
-          "valor": 78000.00
-        },
-        {
-          "chave": "aluguel diário",
-          "valor": 450.00
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "url_foto": "9.jpg",
-      "nome": "Casa 09",
-      "cidade": "Piracicaba",
-      "estado": "São Paulo",
-      "favorito": false,
-      "tipoImovel": "apartamento",
-      "latitude": "-22.7244",
-      "longitude": "-47.6515",
-      "adicionais": [
-        {
-          "chave": "Quartos disponíveis",
-          "valor": "2"
-        },
-        {
-          "chave": "Piscina",
-          "valor": "Sim"
-        },
-        {
-          "chave": "Banheiros",
-          "valor": "1"
-        },
-        {
-          "chave": "Garagem",
-          "valor": "1 carro"
-        },
-        {
-          "chave": "Área Construída",
-          "valor": "90m²"
-        },
-        {
-          "chave": "Jardim",
-          "valor": "Não"
-        },
-        {
-          "chave": "Churrasqueira",
-          "valor": "Não"
-        },
-        {
-          "chave": "Ano de Construção",
-          "valor": "2017"
-        }
-      ],
-      "aluguel": [
-        {
-          "chave": "aluguel mensal",
-          "valor": 2500.00
-        },
-        {
-          "chave": "aluguel anual",
-          "valor": 30000.00
-        },
-        {
-          "chave": "aluguel diário",
-          "valor": 150.00
-        }
-      ]
-    }
-  ]  
+    
+      {
+        "id": 2,
+        "url_foto": "2.jpg",
+        "nome": "Kitnet Econômica",
+        "cidade": "Piracicaba",
+        "estado": "São Paulo",
+        "favorito": false,
+        "tipoImovel": "apartamento",
+        "latitude": "-22.7288",
+        "longitude": "-47.6494",
+        "valor": 150000,
+        "adicionais": [
+          {
+            "chave": "Banheiro",
+            "valor": "1"
+          },
+          {
+            "chave": "Área Construída",
+            "valor": "30m²"
+          },
+          {
+            "chave": "Andar",
+            "valor": "2º"
+          },
+          {
+            "chave": "Mobília",
+            "valor": "Parcialmente Mobiliado"
+          },
+          {
+            "chave": "Vagas de Garagem",
+            "valor": "1"
+          },
+          {
+            "chave": "Condomínio",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Academia",
+            "valor": "Não"
+          },
+          {
+            "chave": "Ano de Construção",
+            "valor": "2010"
+          }
+        ],
+        "aluguel": [
+          {
+            "chave": "aluguel mensal",
+            "valor": 900.00
+          },
+          {
+            "chave": "aluguel semanal",
+            "valor": 250.00
+          },
+          {
+            "chave": "aluguel trimestral",
+            "valor": 2500.00
+          },
+          {
+            "chave": "aluguel semestral",
+            "valor": 5000.00
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "url_foto": "3.jpg",
+        "nome": "Casarão na Floresta",
+        "cidade": "Americana",
+        "estado": "São Paulo",
+        "favorito": false,
+        "tipoImovel": "casa",
+        "latitude": "-22.7377",
+        "longitude": "-47.3331",
+        "valor": 2500000,
+        "adicionais": [
+          {
+            "chave": "Quartos disponíveis",
+            "valor": "10"
+          },
+          {
+            "chave": "Quintal",
+            "valor": "Muito Grande"
+          },
+          {
+            "chave": "Banheiros",
+            "valor": "5"
+          },
+          {
+            "chave": "Garagem",
+            "valor": "5 carros"
+          },
+          {
+            "chave": "Área Construída",
+            "valor": "500m²"
+          },
+          {
+            "chave": "Piscina",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Churrasqueira",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Ano de Construção",
+            "valor": "2005"
+          }
+        ],
+        "aluguel": [
+          {
+            "chave": "aluguel mensal",
+            "valor": 12000.00
+          },
+          {
+            "chave": "aluguel semanal",
+            "valor": 3500.00
+          },
+          {
+            "chave": "aluguel trimestral",
+            "valor": 32000.00
+          },
+          {
+            "chave": "aluguel semestral",
+            "valor": 60000.00
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "url_foto": "4.jpg",
+        "nome": "Casa 04",
+        "cidade": "Nova Odessa",
+        "estado": "São Paulo",
+        "favorito": false,
+        "tipoImovel": "casa",
+        "latitude": "-22.7775",
+        "longitude": "-47.2948",
+        "valor": 1800000,
+        "adicionais": [
+          {
+            "chave": "Quartos disponíveis",
+            "valor": "4"
+          },
+          {
+            "chave": "Piscina",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Banheiros",
+            "valor": "3"
+          },
+          {
+            "chave": "Garagem",
+            "valor": "3 carros"
+          },
+          {
+            "chave": "Área Construída",
+            "valor": "300m²"
+          },
+          {
+            "chave": "Jardim",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Churrasqueira",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Ano de Construção",
+            "valor": "2012"
+          }
+        ],
+        "aluguel": [
+          {
+            "chave": "aluguel mensal",
+            "valor": 8000.00
+          },
+          {
+            "chave": "aluguel semanal",
+            "valor": 2000.00
+          },
+          {
+            "chave": "aluguel trimestral",
+            "valor": 22000.00
+          },
+          {
+            "chave": "aluguel semestral",
+            "valor": 42000.00
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "url_foto": "5.jpg",
+        "nome": "Casa 05",
+        "cidade": "Piracicaba",
+        "estado": "São Paulo",
+        "favorito": false,
+        "tipoImovel": "casa",
+        "latitude": "-22.7289",
+        "longitude": "-47.6492",
+        "valor": 1700000,
+        "adicionais": [
+          {
+            "chave": "Quartos disponíveis",
+            "valor": "4"
+          },
+          {
+            "chave": "Piscina",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Banheiros",
+            "valor": "2"
+          },
+          {
+            "chave": "Garagem",
+            "valor": "2 carros"
+          },
+          {
+            "chave": "Área Construída",
+            "valor": "280m²"
+          },
+          {
+            "chave": "Jardim",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Churrasqueira",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Ano de Construção",
+            "valor": "2013"
+          }
+        ],
+        "aluguel": [
+          {
+            "chave": "aluguel mensal",
+            "valor": 7000.00
+          },
+          {
+            "chave": "aluguel semanal",
+            "valor": 1800.00
+          },
+          {
+            "chave": "aluguel trimestral",
+            "valor": 20000.00
+          },
+          {
+            "chave": "aluguel semestral",
+            "valor": 38000.00
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "url_foto": "6.jpg",
+        "nome": "Casa 06",
+        "cidade": "Cabreúva",
+        "estado": "São Paulo",
+        "favorito": false,
+        "tipoImovel": "casa",
+        "latitude": "-23.3071",
+        "longitude": "-47.1329",
+        "valor": 1600000,
+        "adicionais": [
+          {
+            "chave": "Quartos disponíveis",
+            "valor": "3"
+          },
+          {
+            "chave": "Piscina",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Banheiros",
+            "valor": "3"
+          },
+          {
+            "chave": "Garagem",
+            "valor": "3 carros"
+          },
+          {
+            "chave": "Área Construída",
+            "valor": "260m²"
+          },
+          {
+            "chave": "Jardim",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Churrasqueira",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Ano de Construção",
+            "valor": "2011"
+          }
+        ],
+        "aluguel": [
+          {
+            "chave": "aluguel mensal",
+            "valor": 6000.00
+          },
+          {
+            "chave": "aluguel semanal",
+            "valor": 1500.00
+          },
+          {
+            "chave": "aluguel trimestral",
+            "valor": 18000.00
+          },
+          {
+            "chave": "aluguel semestral",
+            "valor": 34000.00
+          }
+        ]
+      }
+    ]
   
   buscarTodosImoveis(): Imovel[] {
     return this.imoveisDB

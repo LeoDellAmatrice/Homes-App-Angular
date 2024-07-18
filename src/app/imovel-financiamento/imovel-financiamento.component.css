@@ -1,0 +1,303 @@
+article {
+    padding: 10px 0px 40px 0px !important;
+  }
+  
+  h2 {
+    font-size: 35px !important;
+  }
+
+  .custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 40px 10px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    width: 100%;
+    max-width: 200px; /* Ajuste conforme necessário */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns%3D%22http://www.w3.org/2000/svg%22 width%3D%2210%22 height%3D%225%22 viewBox%3D%220 0 10 5%22%3E%3Cpath fill%3D%22%23333%22 d%3D%22M0 0l5 5 5-5z%22/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px 5px;
+    cursor: pointer;
+  }
+  
+  .custom-select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .custom-select:hover {
+    border-color: #888;
+  }
+  
+  img.voltar {
+    width: 5%;
+    position: absolute;
+    top: 4vh;
+    left: 17vw;
+    max-width: 30px;
+    height: auto;
+  }
+  
+  .compra {
+    position: fixed;
+    bottom: 6%;
+    left: 10px;
+    width: 28%;
+    margin-left: 60px;
+  }
+
+  .compra h3 {
+    color: var(--primary-color)
+    
+  }
+  
+  .button {
+    margin-top: 5px;
+    font-size: 20px;
+    height: 50px;
+    width: 300px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border-color: var(--primary-color);
+    border-radius: 8px;
+    color: white;
+    background-color: var(--primary-color);
+  }
+  
+  .listing-photo {
+    height: 500px;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 30px;
+    float: right;
+    margin-right: 100px;
+  }
+  
+  .list {
+    margin-top: 8px;
+    margin-right: 40px;
+    display: list-item;
+    justify-content: center;
+  }
+  
+  .listing-heading {
+    font-size: 48pt;
+    font-weight: bold;
+    margin-bottom: 15px;
+    width: 400px;
+  }
+  
+  .listing-location::before {
+    content: url('/location-pin.svg') / '';
+  }
+  
+  .listing-location {
+    font-size: 24pt;
+    width: 400px;
+  }
+  
+  .valor {
+    font-size: 20pt;
+    width: 400px;
+  }
+  
+  .listing-features>.section-heading {
+    color: var(--secondary-color);
+    font-size: 24pt;
+    margin-bottom: 15px;
+  }
+  
+  .listing-features {
+    margin-bottom: 20px;
+  }
+  
+  .listing-features li {
+    font-size: 14pt;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .listing-apply .section-heading {
+    font-size: 18pt;
+    margin-bottom: 15px;
+  }
+  
+  label,
+  input {
+    display: block;
+  }
+  
+  label {
+    color: var(--secondary-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12pt;
+  }
+  
+  input {
+    font-size: 16pt;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 400px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid .3px;
+  }
+  
+  @media (max-width: 1024px) {
+    img.voltar {
+      width: 6%;
+      top: 3vh;
+      left: 15vw;
+    }
+  
+    .compra {
+      width: 50%;
+      bottom: 5%;
+    }
+  
+    .button {
+      font-size: 18px;
+      width: 80%;
+      margin-left: 10%;
+    }
+  
+    .listing-photo {
+      width: 100%;
+      height: 400px;
+      margin-right: 0;
+    }
+  
+    .listing-heading,
+    .listing-location,
+    input {
+      width: 90%;
+      font-size: 36pt;
+    }
+  
+    .listing-features>.section-heading {
+      font-size: 20pt;
+    }
+  
+    .listing-features li {
+      font-size: 12pt;
+    }
+  
+    label {
+      font-size: 10pt;
+    }
+  
+    input {
+      font-size: 14pt;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    img.voltar {
+      width: 7%;
+      top: 2vh;
+      left: 10vw;
+    }
+  
+    .compra {
+      width: 70%;
+    }
+  
+    .button {
+      font-size: 16px;
+      width: 90%;
+      margin-left: 5%;
+    }
+  
+    .listing-photo {
+      width: 100%;
+      height: 300px;
+    }
+  
+    .listing-heading {
+      font-size: 28pt;
+    }
+  
+    .listing-location {
+      font-size: 18pt;
+    }
+  
+    .listing-features>.section-heading {
+      font-size: 16pt;
+    }
+  
+    .listing-features li {
+      font-size: 10pt;
+    }
+  
+    label {
+      font-size: 9pt;
+    }
+  
+    input {
+      font-size: 12pt;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    img.voltar {
+      width: 8%;
+      top: 1vh;
+      left: 5vw;
+    }
+  
+    .compra {
+      width: 90%;
+    }
+  
+    .button {
+      font-size: 14px;
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .listing-photo {
+      width: 100%;
+      height: 200px;
+    }
+  
+    .listing-heading {
+      font-size: 24pt;
+    }
+  
+    .listing-location {
+      font-size: 16pt;
+    }
+
+    .valor {
+      font-size: 16pt;
+    }
+  
+    .listing-features>.section-heading {
+      font-size: 14pt;
+    }
+  
+    .listing-features li {
+      font-size: 9pt;
+    }
+  
+    label {
+      font-size: 8pt;
+    }
+  
+    input {
+      font-size: 10pt;
+      width: 100%;
+    }
+  }
+  
