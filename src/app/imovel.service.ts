@@ -393,9 +393,201 @@ export class ImovelService {
             "valor": 34000.00
           }
         ]
+      },
+      {
+        "id": 7,
+        "url_foto": "7.jpg",
+        "nome": "Mansão Luxuosa",
+        "cidade": "Campinas",
+        "estado": "São Paulo",
+        "favorito": false,
+        "tipoImovel": "casa",
+        "latitude": "-22.9099",
+        "longitude": "-47.0626",
+        "valor": 3500000,
+        "adicionais": [
+          {
+            "chave": "Quartos disponíveis",
+            "valor": "8"
+          },
+          {
+            "chave": "Piscina",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Banheiros",
+            "valor": "6"
+          },
+          {
+            "chave": "Garagem",
+            "valor": "6 carros"
+          },
+          {
+            "chave": "Área Construída",
+            "valor": "700m²"
+          },
+          {
+            "chave": "Jardim",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Churrasqueira",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Ano de Construção",
+            "valor": "2018"
+          }
+        ],
+        "aluguel": [
+          {
+            "chave": "aluguel mensal",
+            "valor": 20000.00
+          },
+          {
+            "chave": "aluguel semanal",
+            "valor": 5500.00
+          },
+          {
+            "chave": "aluguel trimestral",
+            "valor": 52000.00
+          },
+          {
+            "chave": "aluguel semestral",
+            "valor": 100000.00
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "url_foto": "8.jpg",
+        "nome": "Apartamento Moderno",
+        "cidade": "São Paulo",
+        "estado": "São Paulo",
+        "favorito": false,
+        "tipoImovel": "apartamento",
+        "latitude": "-23.5505",
+        "longitude": "-46.6333",
+        "valor": 1200000,
+        "adicionais": [
+          {
+            "chave": "Quartos disponíveis",
+            "valor": "3"
+          },
+          {
+            "chave": "Piscina",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Banheiros",
+            "valor": "2"
+          },
+          {
+            "chave": "Garagem",
+            "valor": "2 carros"
+          },
+          {
+            "chave": "Área Construída",
+            "valor": "120m²"
+          },
+          {
+            "chave": "Jardim",
+            "valor": "Não"
+          },
+          {
+            "chave": "Churrasqueira",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Ano de Construção",
+            "valor": "2017"
+          }
+        ],
+        "aluguel": [
+          {
+            "chave": "aluguel mensal",
+            "valor": 7000.00
+          },
+          {
+            "chave": "aluguel semanal",
+            "valor": 2000.00
+          },
+          {
+            "chave": "aluguel trimestral",
+            "valor": 18000.00
+          },
+          {
+            "chave": "aluguel semestral",
+            "valor": 35000.00
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "url_foto": "9.jpg",
+        "nome": "Casa de Praia",
+        "cidade": "Ubatuba",
+        "estado": "São Paulo",
+        "favorito": false,
+        "tipoImovel": "casa",
+        "latitude": "-23.4333",
+        "longitude": "-45.0833",
+        "valor": 2000000,
+        "adicionais": [
+          {
+            "chave": "Quartos disponíveis",
+            "valor": "5"
+          },
+          {
+            "chave": "Piscina",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Banheiros",
+            "valor": "4"
+          },
+          {
+            "chave": "Garagem",
+            "valor": "4 carros"
+          },
+          {
+            "chave": "Área Construída",
+            "valor": "400m²"
+          },
+          {
+            "chave": "Jardim",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Churrasqueira",
+            "valor": "Sim"
+          },
+          {
+            "chave": "Ano de Construção",
+            "valor": "2019"
+          }
+        ],
+        "aluguel": [
+          {
+            "chave": "aluguel mensal",
+            "valor": 15000.00
+          },
+          {
+            "chave": "aluguel semanal",
+            "valor": 4000.00
+          },
+          {
+            "chave": "aluguel trimestral",
+            "valor": 45000.00
+          },
+          {
+            "chave": "aluguel semestral",
+            "valor": 85000.00
+          }
+        ]
       }
     ]
-  
+    
   buscarTodosImoveis(): Imovel[] {
     return this.imoveisDB
   }
