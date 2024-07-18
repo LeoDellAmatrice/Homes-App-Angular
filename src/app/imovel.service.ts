@@ -52,6 +52,20 @@ export class ImovelService {
           "chave": "Ano de Construção",
           "valor": "2015"
         }
+      ],
+      "aluguel": [
+        {
+          "chave": "aluguel mensal",
+          "valor": 4500.00
+        },
+        {
+          "chave": "aluguel anual",
+          "valor": 54000.00
+        },
+        {
+          "chave": "aluguel diário",
+          "valor": 300.00
+        }
       ]
     },
     {
@@ -96,6 +110,20 @@ export class ImovelService {
         {
           "chave": "Ano de Construção",
           "valor": "2010"
+        }
+      ],
+      "aluguel": [
+        {
+          "chave": "aluguel mensal",
+          "valor": 900.00
+        },
+        {
+          "chave": "aluguel anual",
+          "valor": 10800.00
+        },
+        {
+          "chave": "aluguel diário",
+          "valor": 60.00
         }
       ]
     },
@@ -142,6 +170,20 @@ export class ImovelService {
           "chave": "Ano de Construção",
           "valor": "2005"
         }
+      ],
+      "aluguel": [
+        {
+          "chave": "aluguel mensal",
+          "valor": 12000.00
+        },
+        {
+          "chave": "aluguel anual",
+          "valor": 144000.00
+        },
+        {
+          "chave": "aluguel diário",
+          "valor": 800.00
+        }
       ]
     },
     {
@@ -186,6 +228,20 @@ export class ImovelService {
         {
           "chave": "Ano de Construção",
           "valor": "2012"
+        }
+      ],
+      "aluguel": [
+        {
+          "chave": "aluguel mensal",
+          "valor": 7000.00
+        },
+        {
+          "chave": "aluguel anual",
+          "valor": 84000.00
+        },
+        {
+          "chave": "aluguel diário",
+          "valor": 500.00
         }
       ]
     },
@@ -232,6 +288,20 @@ export class ImovelService {
           "chave": "Ano de Construção",
           "valor": "2013"
         }
+      ],
+      "aluguel": [
+        {
+          "chave": "aluguel mensal",
+          "valor": 5000.00
+        },
+        {
+          "chave": "aluguel anual",
+          "valor": 60000.00
+        },
+        {
+          "chave": "aluguel diário",
+          "valor": 350.00
+        }
       ]
     },
     {
@@ -276,6 +346,20 @@ export class ImovelService {
         {
           "chave": "Ano de Construção",
           "valor": "2014"
+        }
+      ],
+      "aluguel": [
+        {
+          "chave": "aluguel mensal",
+          "valor": 6000.00
+        },
+        {
+          "chave": "aluguel anual",
+          "valor": 72000.00
+        },
+        {
+          "chave": "aluguel diário",
+          "valor": 400.00
         }
       ]
     },
@@ -322,6 +406,20 @@ export class ImovelService {
           "chave": "Ano de Construção",
           "valor": "2011"
         }
+      ],
+      "aluguel": [
+        {
+          "chave": "aluguel mensal",
+          "valor": 4000.00
+        },
+        {
+          "chave": "aluguel anual",
+          "valor": 48000.00
+        },
+        {
+          "chave": "aluguel diário",
+          "valor": 250.00
+        }
       ]
     },
     {
@@ -366,6 +464,20 @@ export class ImovelService {
         {
           "chave": "Ano de Construção",
           "valor": "2014"
+        }
+      ],
+      "aluguel": [
+        {
+          "chave": "aluguel mensal",
+          "valor": 6500.00
+        },
+        {
+          "chave": "aluguel anual",
+          "valor": 78000.00
+        },
+        {
+          "chave": "aluguel diário",
+          "valor": 450.00
         }
       ]
     },
@@ -412,9 +524,23 @@ export class ImovelService {
           "chave": "Ano de Construção",
           "valor": "2017"
         }
+      ],
+      "aluguel": [
+        {
+          "chave": "aluguel mensal",
+          "valor": 2500.00
+        },
+        {
+          "chave": "aluguel anual",
+          "valor": 30000.00
+        },
+        {
+          "chave": "aluguel diário",
+          "valor": 150.00
+        }
       ]
     }
-  ]
+  ]  
   
   buscarTodosImoveis(): Imovel[] {
     return this.imoveisDB

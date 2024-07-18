@@ -4,13 +4,13 @@ import { ImovelService } from '../imovel.service';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-imovel-d',
+  selector: 'app-imovel-aluguel',
   standalone: true,
   imports: [],
-  templateUrl: './imovel-d.component.html',
-  styleUrl: './imovel-d.component.css'
+  templateUrl: './imovel-aluguel.component.html',
+  styleUrl: './imovel-aluguel.component.css'
 })
-export class ImovelDComponent {
+export class ImovelAluguelComponent {
   imovel: Imovel | undefined;
 
   constructor(
@@ -20,18 +20,5 @@ export class ImovelDComponent {
   ){
     const id = this.route.snapshot.params['id'];
     this.imovel = this.imvService.buscarImovelPeloId(id);
-  }
-
-  paginaAlugar(){  
-    const url = `/detalhes/${this.imovel?.id}/alugar`
-    this.rt.navigate([url]);
-  }
-
-  paginaComprar(){
-    alert('Pagina');
-  }
-
-  paginaFinanciamento(){
-    alert('Pagina');
   }
 }

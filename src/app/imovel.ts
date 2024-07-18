@@ -3,6 +3,11 @@ interface Propriedades {
     valor: number|string;
 }
 
+interface DetalhesAluguel {
+    chave: String;
+    valor: number;
+}
+
 export interface Imovel {
     id: number;
     url_foto: string;
@@ -14,4 +19,5 @@ export interface Imovel {
     latitude: String; 
     longitude: String;
     adicionais: Propriedades[];
+    aluguel: DetalhesAluguel[];
 }
