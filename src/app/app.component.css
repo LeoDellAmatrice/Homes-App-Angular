@@ -1,9 +1,43 @@
-.brand-name {
+/* Estilos Globais */
+main {
+    padding: 20px;
+  }
+  
+  .brand-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin-top: 20px;
     margin-left: 5%;
-}
-
-.brand-title{
+  }
+  
+  .brand-logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .brand-title {
     color: #605DC8;
     font-size: 25px;
-}
+    margin-top: 10px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .brand-title {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .brand-title {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .brand-title {
+      font-size: 16px;
+    }
+  }
+  
